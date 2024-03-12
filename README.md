@@ -1,10 +1,10 @@
-# Welcome to your CDK C# project!
+# Hyperscape CDN with CDK
 
-This is a blank project for CDK development with C#.
+This is a Visual Studio project that builds a secure CloudFront distribution with AWS CDK.  It uses a protected S3 bucket to host the assets.  CloudFront is using Origin Access Identity (OAI) so the bucket cannot be accessed independently of CloudFront.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+The `cdk.json` file tells the CDK Toolkit how to execute the app.
 
-It uses the [.NET CLI](https://docs.microsoft.com/dotnet/articles/core/) to compile and execute your project.
+It uses the [.NET CLI](https://docs.microsoft.com/dotnet/articles/core/) to compile and execute the project.
 
 ## Useful commands
 
